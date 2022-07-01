@@ -17,7 +17,7 @@ NUMERO=`echo "$QUERY_STRING" | sed -n 's/^.*numero=\([^&]*\).*$/\1/p' | sed "s/%
       case "$CMD" in
     	blacklist-check)
             echo "<pre>"
-            asterisk -rx "database get blacklist $NUMERO" | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' | sed 's/[["Databaseentrynotfound."]]/{ "query blacklist": { "id": 1001, "name": "Database entry not found" } }/g'
+            asterisk -rx "database get blacklist $NUMERO" | sed 's/ //' | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' | jq '. | map( [{(.[0]): .[1]}] ) | add'
             echo "</pre>"
             ;;
 

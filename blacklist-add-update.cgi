@@ -18,7 +18,7 @@ NOMBRE=`echo "$QUERY_STRING" | sed -n 's/^.*nombre=\([^&]*\).*$/\1/p' | sed "s/%
       case "$CMD" in
     	blacklist-add-update)
             echo "<pre>"
-            asterisk -rx "database put blacklist $NUMERO \"$NOMBRE\"" | sed 's/Updated database successfully/{ "query blacklist": { "id": 1001, "name": "Updated database successfully" } }/g'
+            asterisk -rx "database put blacklist $NUMERO \"$NOMBRE\"" | sed 's/Updated database successfully/[ { "query": blacklist, "id": 1001, "status": Updated database successfully } ]/g' 
             echo "</pre>"
             ;;
 

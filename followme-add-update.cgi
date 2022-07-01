@@ -19,7 +19,7 @@ NUMEROS=`echo "$QUERY_STRING" | sed -n 's/^.*numeros=\([^&]*\).*$/\1/p' | sed "s
       case "$CMD" in
     	followme-add-update)
             echo "<pre>"
-            asterisk -rx "database put AMPUSER $EXT/followme/grplist $NUMEROS" | sed 's/Updated database successfully/{ "query followme": { "id": 1001, "name": "Updated database successfully" } }/g'
+            asterisk -rx "database put AMPUSER $EXT/followme/grplist $NUMEROS" | sed 's/Updated database successfully/[ { "query": followme, "id": 1001, "status": Updated database successfully } ]/g'
             echo "</pre>"
             ;;
 

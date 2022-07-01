@@ -19,7 +19,7 @@ SEGUNDOS=`echo "$QUERY_STRING" | sed -n 's/^.*segundos=\([^&]*\).*$/\1/p' | sed 
       case "$CMD" in
         grptime-add-update)
             echo "<pre>"
-            asterisk -rx "database put AMPUSER $EXT/followme/grptime $SEGUNDOS" | sed 's/Updated database successfully/{ "query grptime": { "id": 1001, "name": "Updated database successfully" } }/g'
+            asterisk -rx "database put AMPUSER $EXT/followme/grptime $SEGUNDOS" | sed 's/Updated database successfully/[ { "query": grptime, "id": 1001, "status": Updated database successfully } ]/g'
             echo "</pre>"
             ;;
 

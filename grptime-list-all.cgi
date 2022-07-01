@@ -17,7 +17,7 @@ CMD=`echo "$QUERY_STRING" | sed -n 's/^.*cmd=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
       case "$CMD" in
     	grptime-list-all)
             echo "<pre>"
-            asterisk -rx "database show" | grep grptime | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' 
+            asterisk -rx "database show" | grep grptime | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' | jq '. | map( [{(.[0]): .[1]}] ) | add'
             echo "</pre>"
             ;;
 

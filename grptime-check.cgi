@@ -18,7 +18,7 @@ EXT=`echo "$QUERY_STRING" | sed -n 's/^.*ext=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
       case "$CMD" in
         grptime-check)
             echo "<pre>"
-            asterisk -rx "database get AMPUSER $EXT/followme/grptime" | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' | sed 's/Database entry not found./{ "query grptime": { "id": 1001, "name": "Database entry not found" } }/g'
+            asterisk -rx "database get AMPUSER $EXT/followme/grptime" | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' | jq '. | map( [{(.[0]): .[1]}] ) | add'
             echo "</pre>"
             ;;
 
