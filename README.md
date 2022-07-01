@@ -1,7 +1,7 @@
 
-<h1 align="center">Dashy</h1>
+<h1 align="center">Issabel-AstDB</h1>
 <p align="center">
-  <i>Dashy helps you organize your self-hosted services by making them accessible from a single place</i>
+  <i>Issabel-AstDB te puede ayudar a crear, visualizar, actualizar o eliminar infomacion que se encuentre en la base de datos de asterisk que esta usando Issabel, todo esto es posible gracias a scripts de cgi</i>
    <br/>
   <img width="120" src="https://i.ibb.co/yhbt6CY/dashy.png" />
   <br/>
