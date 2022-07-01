@@ -16,7 +16,7 @@ CMD=`echo "$QUERY_STRING" | sed -n 's/^.*cmd=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
       case "$CMD" in
     	blacklist-list-all)
             echo "<pre>"
-            asterisk -rx "database show" | grep blacklist
+            asterisk -rx "database show" | grep blacklist | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' 
             echo "</pre>"
             ;;
 

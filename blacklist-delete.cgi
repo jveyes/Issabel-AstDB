@@ -17,7 +17,7 @@ NUMERO=`echo "$QUERY_STRING" | sed -n 's/^.*numero=\([^&]*\).*$/\1/p' | sed "s/%
       case "$CMD" in
     	blacklist-delete)
             echo "<pre>"
-            asterisk -rx "database del blacklist $NUMERO"
+            asterisk -rx "database del blacklist $NUMERO" | sed 's/Database entry removed./{ "query blacklist": { "id": 1002, "name": "Database deletion successfully" } }/g'
             echo "</pre>"
             ;;
 

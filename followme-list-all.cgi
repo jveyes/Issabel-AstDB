@@ -16,12 +16,17 @@ CMD=`echo "$QUERY_STRING" | sed -n 's/^.*cmd=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
       case "$CMD" in
     	followme-list-all)
             echo "<pre>"
-            asterisk -rx "database show" | grep grplist
+            
+            #asterisk -rx "database show" | grep grplist | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' 
+            
+            asterisk -rx "database show" | grep grplist | tr -d "[:blank:]" | jq -R -s -c 'split("\n")[:-1]' | jq 'map(split(":"))' 
+            
+            #asterisk -rx "database show" | grep grplist | jq -R 'split (":")' | tr -d "[:blank:]"
             echo "</pre>"
             ;;
 
 # MUESTRA UN ERROR PA QUE CREAN QUE HAY SEGURIDAD
-        *)
+            *)
             echo "ERROR: 8990 --> $CMD"
             ;;
       esac

@@ -18,7 +18,7 @@ EXT=`echo "$QUERY_STRING" | sed -n 's/^.*ext=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
       case "$CMD" in
         grptime-delete)
             echo "<pre>"
-            asterisk -rx "database put AMPUSER $EXT/followme/grptime 30"
+            asterisk -rx "database put AMPUSER $EXT/followme/grptime 30" | sed 's/Updated database successfully/{ "query grptime": { "id": 1002, "name": "Database Update successfully" } }/g'
             # ELIMINA UNA EXTENCION QUE ESTE CREADA
             # asterisk -rx "database del AMPUSER $EXT/followme/grptime"
             echo "</pre>"

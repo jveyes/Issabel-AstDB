@@ -17,7 +17,7 @@ EXT=`echo "$QUERY_STRING" | sed -n 's/^.*ext=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
       case "$CMD" in
         followme-delete)
             echo "<pre>"
-            asterisk -rx "database put AMPUSER $EXT/followme/grplist $EXT"
+            asterisk -rx "database put AMPUSER $EXT/followme/grplist $EXT" | sed 's/Updated database successfully/{ "query blacklist": { "id": 1002, "name": "Database update successfully" } }/g'
             # ELIMINA UNA EXTENCION QUE ESTE CREADA
             # asterisk -rx "database del AMPUSER $EXT/followme/grplist"
             echo "</pre>"
@@ -29,7 +29,7 @@ EXT=`echo "$QUERY_STRING" | sed -n 's/^.*ext=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
             ;;
       esac
     fi
-
+    
 # CIERRA ETIQUETAS HTML    
     echo "</body>"
     echo "</html>"
