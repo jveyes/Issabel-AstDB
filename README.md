@@ -3,7 +3,7 @@
 <p align="center">
   <i>Issabel-AstDB te puede ayudar a crear, visualizar, actualizar o eliminar infomacion que se encuentre en la base de datos de asterisk (AstDB) que esta usando Issabel, todo esto es posible gracias a scripts simples de cgi</i>
    <br/>
-  <img width="120" src="https://i.ibb.co/qgCYXyY/Issabel-Ast-DB.webp" />
+  <img width="120" src="https://i.ibb.co/LdRcFrW/Issabel-Ast-DB.webp" />
   <br/>
   <b><a href="./docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="./docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://github.com/Lissy93/dashy">GitHub</a></b>
   <br/><br/>
