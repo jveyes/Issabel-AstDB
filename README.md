@@ -63,3 +63,16 @@ CLI> help database
 ## Ejemplos de modificacion de AstDB por medio del navegador web
 
 ---
+
+<p align="center">
+  <br>
+  <a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/l5385l9o46mbp449x6el" alt="trackgit-views" />
+</a>
+  <br><br>
+  <a href="https://github.com/jveyes">
+    <img src="https://avatars.githubusercontent.com/u/4891933?v=4" />
+  </a>
+  <br><br>
+  <i>Thank you for Visiting</i>
+</p>
