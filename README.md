@@ -11,28 +11,11 @@
 
 ## Caracteristicas
 - 📃 Crear la logica para hacer CRUD a la base de datos <a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a>
-- 🚦 Configurar todo lo que necesites en <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a> web con <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash scripts</a>
-- 📊 Leer las solicitudes por medio de un navegador web
+- 🔐 Configurar todo lo que necesites en <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a> web con <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash scripts</a>
+- 🌎 Leer las solicitudes por medio de un navegador web
 - 🔎 Validacion de la peticion web en el servidor en la ruta <a href="https://es.wikipedia.org/wiki/Interfaz_de_entrada_com%C3%BAn">cgi-bin</a>
-- 🎨 Ejecuta una peticion a Asterisk por medio de <a href="https://wiki.asterisk.org/wiki/display/AST/Connecting+to+the+Asterisk+CLI">asterisk -rx</a>
-- 🧸 Muestra el resuldado con formato <a href="https://www.rfc-editor.org/info/rfc8259">json</a>
-- 💂 Optional authentication with multi-user access, configurable privileges, and SSO support
-- 🌎 Multi-language support, with 10+ human-translated languages, and more on the way
-- ☁ Optional, encrypted, free off-site cloud backup and restore feature available
-- 💼 A workspace view, for easily switching between multiple apps simultaneously
-- 🛩️ A minimal view, for use as a fast-loading browser Startpage
-- 🖱️ Choose app launch methods: new tab, same tab, clipboard, pop-up modal, or open in workspace view
-- 📏 Customizable layout, sizes, text, component visibility, sort order, behavior, etc.
-- 🖼️ Options for a full-screen background image, custom nav-bar links, HTML footer, title, etc.
-- 🚀 Easy to setup with Docker, or on bare metal, or with 1-Click cloud deployment
-- ⚙️ Easy single-file YAML-based configuration, and option to configure app through the UI
-- ✨ Under active development with improvements and new features added regularly 
-- 🤏 Small bundle size, fully responsive UI, and PWA for basic offline access
-- 🆓 100% free and open-source
-- 🔐 Strong focus on privacy
-- 🌈 And loads more...
-
-**[⬆️ Back to Top](#dashy)**
+- 🚀 Ejecuta una peticion a Asterisk por medio de <a href="https://wiki.asterisk.org/wiki/display/AST/Connecting+to+the+Asterisk+CLI">asterisk -rx</a>
+- 🖼️ Muestra el resuldado con formato <a href="https://www.rfc-editor.org/info/rfc8259">json</a>
 
 ## Demo ⚡
 
