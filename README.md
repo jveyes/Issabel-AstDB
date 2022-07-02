@@ -1,7 +1,7 @@
 
 <h1 align="center">Issabel-AstDB</h1>
 <p align="center">
-  <i>Issabel-AstDB te puede ayudar a crear, visualizar, actualizar o eliminar infomacion que se encuentre en la base de datos de asterisk (AstDB) que esta usando Issabel, todo esto es posible gracias a scripts simples de cgi</i>
+  <i>Issabel-AstDB te puede ayudar a crear, visualizar, actualizar o eliminar infomacion que se encuentre en la base de datos de asterisk (AstDB) que esta usando Issabel, todo esto es posible gracias a unos scripts basicos de cgi</i>
    <br/>
   <img width="120" src="https://i.ibb.co/LdRcFrW/Issabel-Ast-DB.webp" />
   <br/>
@@ -20,7 +20,7 @@
 ## Alcance de este ejercicio ⚡
 
 <p>
-  <i>El alcance de este ejercicio es modificar 2 opciones que usualmente podemos hacerlo por el GUI de issabelPBX v2.11.0-r49, como lo son el <b>Blacklist</b> y  <b>Follow Me</b>.<br /></i>
+  <i>El alcance de este ejercicio es modificar 2 opciones que usualmente podemos hacerlo por el GUI de issabel PBX, como lo son el <b>Blacklist</b> y  <b>Follow Me</b>.<br /></i>
    <br/>
   <p align="center">
 	  <img src="https://i.ibb.co/rvtKvSG/bl-fm.webp" />
