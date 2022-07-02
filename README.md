@@ -20,22 +20,14 @@
 ## Alcance de este ejercicio ⚡
 
 <p>
-  <i>El alcance de este ejercicio es modificar 2 opciones que usualmente podemos hacerlo en issabelPBX v2.11.0-r49, como lo son el <b>Blacklist</b> y  <b>Follow Me</b>, la version de Asterisk que maneja esta version de Issabel es v16.26.0r2.el7</i>
+  <i>El alcance de este ejercicio es modificar 2 opciones que usualmente podemos hacerlo en issabelPBX v2.11.0-r49, como lo son el <b>Blacklist</b> y  <b>Follow Me</b>.</i>
    <br/>
   <p align="center">
 	  <img src="https://i.ibb.co/rvtKvSG/bl-fm.webp" />
   </p>
   <br/>
-  <b><a href="https://www.issabel.org/">Issabel</a></b> | <b><a href="https://www.asterisk.org/">Asterisk</a></b> | <b><a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a></b> | <b><a href="https://www.sqlite.org/index.html">SQLite</a></b>
   <br/><br/>
 </p>
-
-<p align="center">
-  <img width="800" src="https://i.ibb.co/L8YbNNc/dashy-demo2.gif" alt="Demo" />
-</p>
-
-
-**[⬆️ Back to Top](#dashy)**
 
 ---
 
