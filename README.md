@@ -17,14 +17,7 @@
 - 🚀 Ejecuta una peticion a Asterisk por medio de <a href="https://wiki.asterisk.org/wiki/display/AST/Connecting+to+the+Asterisk+CLI">asterisk -rx</a>
 - 🖼️ Muestra el resuldado con formato <a href="https://www.rfc-editor.org/info/rfc8259">json</a>
 
-## Demo ⚡
-
-**Live Instances**: [Demo 1](https://demo.dashy.to) (Live Demo) ┆ [Demo 2](https://live.dashy.to) (Dashy Links) ┆ [Demo 3](https://dev.dashy.to) (Dev Preview)
-
-**Screenshots**: Checkout the [Showcase](./docs/showcase.md), to see example dashboards from the community
-
-**Spin up your own demo**: [![One-Click Deploy with PWD](https://img.shields.io/badge/Play--with--Docker-Deploy-2496ed?style=flat-square&logo=docker)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or [`docker run -p 8080:80 lissy93/dashy`](./docs/quick-start.md)
-
+## Alcance de este ejercicio ⚡
 
 <p align="center">
   <img width="800" src="https://i.ibb.co/L8YbNNc/dashy-demo2.gif" alt="Demo" />
