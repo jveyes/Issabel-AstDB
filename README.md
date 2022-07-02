@@ -34,6 +34,14 @@
   </p>
 </p>
 
+```CLI> help database
+     database del       Removes database key/value
+     database deltree   Removes database keytree/values
+     database get       Gets database value
+     database put       Adds/updates database value
+     database show      Shows database contents
+     database showkey   Shows database contents
+```
 ---
 
 ## Getting Started 🚀
