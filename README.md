@@ -74,5 +74,5 @@ CLI> help database
     <img width="40" src="https://avatars.githubusercontent.com/u/4891933?v=4" />
   </a>
   <br><br>
-  <i>Thank you for Visiting</i>
+  <i>Gracias por visitar</i>
 </p>
