@@ -5,7 +5,7 @@
    <br/>
   <img width="120" src="https://i.ibb.co/LdRcFrW/Issabel-Ast-DB.webp" />
   <br/>
-  <b><a href="https://www.issabel.org/">Issabel</a></b> | <b><a href="https://www.asterisk.org/">Asterisk</a></b> | <b><a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a></b> | <b><a href="https://www.sqlite.org/index.html">SQLite</a></b>
+  <b><a href="https://www.issabel.org/">Issabel</a></b> | <b><a href="https://www.asterisk.org/">Asterisk</a></b> | <b><a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a></b> | <b><a href="https://www.sqlite.org/index.html">SQLite</a></b> | <b><a href="https://stedolan.github.io/jq/">SQLite</a></b>
   <br/><br/>
 </p>
 
