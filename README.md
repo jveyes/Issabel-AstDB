@@ -10,11 +10,11 @@
 </p>
 
 <details>
-  <summary><b>Table of Contents</b></summary>
+  <summary><b>Tabla de contenido</b></summary>
   <p>
   
-- **Getting Started**
-  - [🌈 Features](#features-)
+- **Para iniciar**
+  - [👓 Caracteristicas](#features-)
   - [⚡Demo](#demo-)
   - [🚀 Getting Started](#getting-started-)
   - [🔧 Configuring](#configuring-)
