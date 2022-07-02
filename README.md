@@ -71,7 +71,7 @@ CLI> help database
 </a>
   <br><br>
   <a href="https://github.com/jveyes">
-    <img src="https://avatars.githubusercontent.com/u/4891933?v=4" />
+    <img width="40" src="https://avatars.githubusercontent.com/u/4891933?v=4" />
   </a>
   <br><br>
   <i>Thank you for Visiting</i>
