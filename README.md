@@ -9,50 +9,13 @@
   <br/><br/>
 </p>
 
-<details>
-  <summary><b>Tabla de contenido</b></summary>
-  <p>
-  
-- **Para iniciar**
-  - [👓 Caracteristicas](#features-)
-  - [⚡Demo](#demo-)
-  - [🚀 Getting Started](#getting-started-)
-  - [🔧 Configuring](#configuring-)
-- **Feature Overview**
-  - [🎨 Theming](#theming-)
-  - [🧸 Icons](#icons-)
-  - [🚦 Status Indicators](#status-indicators-)
-  - [📊 Widgets](#widgets-)
-  - [🔐 Authentication](#authentication-)
-  - [👓 Alternate Views](#alternate-views-)
-  - [🖱️ Opening Methods](#opening-methods-)
-  - [🔎 Searching and Shortcuts](#searching-and-shortcuts-)
-  - [⚙️ Config Editor](#config-editor-)
-  - [☁ Cloud Backup & Sync](#cloud-backup--sync-)
-  - [🌎 Language Switching](#language-switching-)
-  - [📃 Multi-Page Support](#multi-page-support-)
-- **Community**
-  - [📊 System Requirements](#system-requirements-)
-  - [🙋‍♀️ Support](#support-)
-  - [💖 Supporting Dashy](#supporting-dashy-)
-  - [🏆 Credits](#credits-)
-  - [🧱 Developing](#developing-)
-  - [🗞️ Release Schedule](#release-schedule-)
-  - [📘 Documentation](#documentation-)
-  - [🛣️ Roadmap](#roadmap-)
-  - [🙌 Alternatives](#alternatives-)
-  - [📜 License](#license-)
-    
-  </p>
-</details>
-
-## Features 🌈
-- 📃 Support for multiple pages
-- 🚦 Real-time status monitoring for each of your apps/links
-- 📊 Use widgets to display info and dynamic content from self-hosted services
-- 🔎 Instant search by name, domain, or tags + customizable hotkeys & keyboard shortcuts
-- 🎨 Many built-in color themes, with UI color editor and support for custom CSS
-- 🧸 Many icon options - Font-Awesome, homelab icons, auto-fetching Favicon, images, emojis, etc.
+## Caracteristicas
+- 📃 Crear la logica para hacer CRUD a la base de datos <a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a>
+- 🚦 Configurar todo lo que necesites en <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a> web con <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash scripts</a>
+- 📊 Leer las solicitudes por medio de un navegador web
+- 🔎 Validacion de la peticion web en el servidor
+- 🎨 Ejecuta un comando por medio de asterisk -rx predefinido directamente a la base de datos <a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a>
+- 🧸 Muestra el resuldado con formato <a href="https://www.rfc-editor.org/info/rfc8259">json</a>
 - 💂 Optional authentication with multi-user access, configurable privileges, and SSO support
 - 🌎 Multi-language support, with 10+ human-translated languages, and more on the way
 - ☁ Optional, encrypted, free off-site cloud backup and restore feature available
