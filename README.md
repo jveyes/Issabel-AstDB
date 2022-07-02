@@ -48,18 +48,18 @@ CLI> help database
 
 ---
 
-## Requisitos
+## Instalacion jq (linux output --> formato json)
 
 ---
-## Requisitos
+## Ejemplos Asterisk CLI>
 
 ---
-## Requisitos
+## Ejemplos asterisk -rx (remoto*)
 
 ---
-## Requisitos
+## Creacion de scripts CGI
 
 ---
-## Requisitos
+## Ejemplos de modificacion de AstDB por medio del navegador web
 
 ---
