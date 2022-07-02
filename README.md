@@ -7,24 +7,6 @@
   <br/>
   <b><a href="https://www.issabel.org/">Issabel</a></b> | <b><a href="https://www.asterisk.org/">Asterisk</a></b> | <b><a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a></b> | <b><a href="https://www.sqlite.org/index.html">SQLite</a></b>
   <br/><br/>
-  <a href="https://github.com/awesome-selfhosted/awesome-selfhosted#personal-dashboards">
-    <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Self-Hosted">
-  </a>
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-0aa8d2?logo=opensourceinitiative&logoColor=fff" alt="License MIT">
-  </a>
-  <a href="./.github/CHANGELOG.md">
-    <img src="https://img.shields.io/github/package-json/v/lissy93/dashy?logo=azurepipelines&amp;color=0aa8d2" alt="Current Version">
-  </a>
-  <a href="https://hub.docker.com/r/lissy93/dashy">
-    <img src="https://img.shields.io/docker/pulls/lissy93/dashy?logo=docker&color=0aa8d2&logoColor=fff" alt="Docker Pulls">
-  </a>
-  <a href="http://as93.link/dashy-build-status">
-   <img src="https://badgen.net/github/status/lissy93/dashy?icon=github" alt="GitHub Status">
-  </a>
-  <a href="https://snyk.io/test/github/lissy93/dashy">
-    <img src="https://snyk.io/test/github/lissy93/dashy/badge.svg" alt="Known Vulnerabilities">
-  </a>
 </p>
 
 <details>
