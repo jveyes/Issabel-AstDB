@@ -14,7 +14,7 @@
 - 🚦 Configurar todo lo que necesites en <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a> web con <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash scripts</a>
 - 📊 Leer las solicitudes por medio de un navegador web
 - 🔎 Validacion de la peticion web en el servidor
-- 🎨 Ejecuta un comando por medio de asterisk -rx predefinido directamente a la base de datos <a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a>
+- 🎨 Ejecuta una peticion a Asterisk por medio de <a href=" https://wiki.asterisk.org/wiki/display/AST/Connecting+to+the+Asterisk+CLI">asterisk -rx</a> predefinido directamente a la base de datos <a href="https://www.wikiasterisk.com/index.php/AstDB">AstDB</a>
 - 🧸 Muestra el resuldado con formato <a href="https://www.rfc-editor.org/info/rfc8259">json</a>
 - 💂 Optional authentication with multi-user access, configurable privileges, and SSO support
 - 🌎 Multi-language support, with 10+ human-translated languages, and more on the way
