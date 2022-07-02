@@ -41,16 +41,6 @@ CLI> help database
 	database showkey               -- Shows database contents
 ```
 
-```asterisk -rvvv
-CLI> help database
-	database del                   -- Removes database key/value
-	database deltree               -- Removes database keytree/values
-	database get                   -- Gets database value
-	database put                   -- Adds/updates database value
-	database query                 -- Run a user-specified query on the astdb
-	database show                  -- Shows database contents
-	database showkey               -- Shows database contents
-```
 
 ---
 
