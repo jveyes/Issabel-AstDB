@@ -10,7 +10,7 @@
 </p>
 
 ## Caracteristicas
-- 📃 Crear la logica para hacer CRUD a la base de datos <a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+Internal+Database">AstDB</a>
+- 📃 Crear la logica para hacer CRUD a la base de datos <a href="https://wiki.asterisk.org/wiki/display/AST/Asterisk+Internal+Database">AstDB</a> la cual se origina de <a href="https://es.wikipedia.org/wiki/Berkeley_DB">Berkeley DB</a>
 - 🔐 Configurar todo lo que necesites en <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a> web con <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">Bash scripts</a>
 - 🌎 Leer las solicitudes por medio de un navegador web
 - 🔎 Validacion de la peticion web en el servidor en la ruta <a href="https://es.wikipedia.org/wiki/Interfaz_de_entrada_com%C3%BAn">cgi-bin</a>
@@ -20,7 +20,7 @@
 ## Alcance de este ejercicio ⚡
 
 <p>
-  <i>El alcance de este ejercicio es modificar 2 opciones que usualmente podemos hacerlo en issabelPBX v2.11.0-r49, como lo son el <b>Blacklist</b> y  <b>Follow Me</b>.</i>
+  <i>El alcance de este ejercicio es modificar 2 opciones que usualmente podemos hacerlo por el GUI de issabelPBX v2.11.0-r49, como lo son el <b>Blacklist</b> y  <b>Follow Me</b>.<br />Estas 2 opciones se encuentrar en la base de datos AstDB la cual almacena sus datos en agrupaciones llamadas <b>families</b>, con valores identificados por <b>keys</b>. Dentro de una familia, una clave solo se puede usar una vez. Por ejemplo, si tuviéramos una familia llamada test, podríamos almacenar solo un valor con una clave llamada count. Cada valor almacenado debe estar asociado a una familia.<br />Existen 2 formas de modificar estas familias y llaves, por medio de las aplicaciones SET en el dialplan o por medio de la consola, usando la opcion de ejecucion de asterisk de forma remota <b>asterisk -rx</b></i>
    <br/>
   <p align="center">
 	  <img src="https://i.ibb.co/rvtKvSG/bl-fm.webp" />
