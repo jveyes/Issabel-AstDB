@@ -1,0 +1,5 @@
+#Protect Directory
+AuthName "ASTERISK"
+AuthType Basic
+AuthUserFile /var/www/cgi-bin/.htpasswd
+Require valid-user

@@ -17,12 +17,12 @@ FECHA=`echo "$QUERY_STRING" | sed -n 's/^.*fecha=\([^&]*\).*$/\1/p' | sed "s/%20
       case "$CMD" in
     	master-cdr)
             echo "<pre>"
-            jq -Rsn '
-            [inputs
-                | . / "\n"
-                | (.[] | select(length > 0) | . / ",") as $input
-                | {"CID": $input[0], "ORIGEN": $input[1], "DESTINO": $input[2], "INICIO LLAMADA": $input[3], "LLAMADA CONTESTADA": $input[4], "LLAMADA TERMINADA": $input[5], "DURACION": $input[6], "SEGUNDOS": $input[7], "ESTADO LLAMADA": $input[8], "ID LLAMADA": $input[9], }]
-            ' <"$FECHA.csv" | sed 's/\\"//g'
+		jq -Rsn '
+            	[inputs
+                	| . / "\n"
+                	| (.[] | select(length > 0) | . / ",") as $input
+                	| {"CID": $input[0], "ORIGEN": $input[1], "DESTINO": $input[2], "CONTEXTO": $input[3], "CANAL ORIGEN": $input[4], "CANAL DESTINO": $input[5], "APP": $input[6],"LLAMADA INICIADA": $input[7], "LLAMADA CONTESTADA": $input[8], "LLAMADA TERMINADA": $input[9], "DURACION": $input[10], "TIEMPO AL AIRE": $input[11], "ESTADO LLAMADA": $input[12], "BANDERA": $input[13], "ID LLAMADA": $input[14] }]
+            	' <"$FECHA.csv" | sed 's/\\"//g'
             echo "</pre>"
             ;;
 
@@ -34,5 +34,5 @@ FECHA=`echo "$QUERY_STRING" | sed -n 's/^.*fecha=\([^&]*\).*$/\1/p' | sed "s/%20
     fi
 
 # CIERRA ETIQUETAS HTML    
-    echo "</body>"
-    echo "</html>"
+#    echo "</body>"
+#    echo "</html>"
