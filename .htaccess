@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "ASTERISK"
-AuthUserFile /home/centos/.htpasswd
-Require valid-user
