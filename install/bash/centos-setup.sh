@@ -22,8 +22,8 @@ mkdir ~/.aws/
 touch ~/.aws/credentials
 touch ~/.aws/config
 echo '[default]' >> ~/.aws/credentials
-echo 'aws_access_key_id=AKIA42IJAAWUDMXBG7PZ' >> ~/.aws/credentials
-echo 'aws_secret_access_key=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' >> ~/.aws/credentials
+echo 'aws_access_key_id=' >> ~/.aws/credentials
+echo 'aws_secret_access_key=' >> ~/.aws/credentials
 echo '[default]' >> ~/.aws/config
 echo 'region=us-east-1' >> ~/.aws/config
 echo 'output=json' >> ~/.aws/config
