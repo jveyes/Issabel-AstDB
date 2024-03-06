@@ -1,4 +1,4 @@
 *
 !/scripts
 /scripts/config.cnf
-csv/mysql.cnf
+mysql.cnf
